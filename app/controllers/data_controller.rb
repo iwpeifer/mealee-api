@@ -8,7 +8,6 @@ class DataController < ApplicationController
       data = RestClient.get(url, headers={
         'Authorization': ENV['BEARER_TOKEN']
       })
-      byebug
     rescue RestClient::ExceptionWithResponse => e
       # data is being redefined only if there is an error
       data = e.response
