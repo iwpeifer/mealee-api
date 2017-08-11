@@ -1,24 +1,15 @@
-# README
+Try it live at Try it online at http://mealee.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Watch a video demo <a href='https://youtu.be/B-3i_xJXf8s'>HERE</a>
 
-Things you may want to cover:
+# Introduction
+Mealée utilizes the Yelp Fusion API to create a tournament-style game in which businesses near you, and according to your specifications, "battle" each other for your favor.
 
-* Ruby version
+This WebApp was inspired by the many instances in my life in which I have felt overwhelmed with options! Rather than endlessly hemming and hawing over the possibilities, wouldn't it be nice to make a fast--but informed--decision?
 
-* System dependencies
+Mealée highlights important information for you to make your decisions quickly. The closer option's distance is highlighted, and, if an option has a higher Yelp rating (provided it has a sufficient amount of ratings in the first place),  this will also be highlighted. Users can also click a business's image to see its Yelp page.
 
-* Configuration
+Craving Italian, but don't know which restaurant? Looking for lunch ideas in general? What about a gym, a museum, or a place to buy shoes? Mealée makes it easy, and it's a great tool to discover new places to try out--whether you're in a new city or your hometown!
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Site in Action
+<img src='https://github.com/iwpeifer/mealee2/blob/master/public/images/Screen%20Shot%202017-08-10%20at%209.16.53%20PM.png?raw=true'/>
